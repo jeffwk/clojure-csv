@@ -1,4 +1,5 @@
 This is a fork including escape character functionality taken from users petr-tichy and sundbry.
+
 It also reverts the parsing change included in release 2.0.2.
 
 Clojure-CSV
