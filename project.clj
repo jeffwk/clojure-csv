@@ -1,8 +1,10 @@
-(defproject clojure-csv "2.0.2"
+(defproject jeffwk/clojure-csv "2.0.3-SNAPSHOT"
   :description "A simple library to read and write CSV files."
   :dependencies [[org.clojure/clojure "1.3.0"]]
   :plugins [[perforate "0.3.2"]]
   :jvm-opts ["-Xmx1g"]
+  :source-paths ["src"]
+  :omit-source false
   :profiles {:current {:source-paths ["src/"]}
              :clj1.4 {:dependencies [[org.clojure/clojure "1.4.0-beta5"]]}
              :clj1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}

@@ -1,3 +1,5 @@
+(This is a fork including escape character functionality taken from users petr-tichy and sundbry)
+
 Clojure-CSV
 ===========
 Clojure-CSV is a small library for reading and writing CSV files. The main
